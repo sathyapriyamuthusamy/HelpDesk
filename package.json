@@ -1,0 +1,22 @@
+{
+  "name": "helpdesk-ticket-system",
+  "version": "1.0.0",
+  "description": "Real-time support ticket management system (Node, Express, SQLite, Socket.IO)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node seed.js && node server.js",
+    "start:empty": "node server.js",
+    "seed": "node seed.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^13.2.0",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "socket.io": "^4.8.4"
+  }
+}
